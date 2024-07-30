@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EACCEF">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/vui"
+        android:textStyle="bold"
+        android:textColor="#EC4510"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C2: Con gì đập thì sống, không đập thì chết?"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:textColor="#0D63A6"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/rad_group1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con muỗi"
+            android:textSize="20sp"
+            android:id="@+id/rad5"
+            android:textColor="#9A12B1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con cá"
+            android:textSize="20sp"
+            android:id="@+id/rad6"
+            android:textColor="#9A12B1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con tim"
+            android:textSize="20sp"
+            android:id="@+id/rad7"
+            android:textColor="#9A12B1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con ong"
+            android:textSize="20sp"
+            android:id="@+id/rad8"
+            android:textColor="#9A12B1"/>
+    </RadioGroup>
+        <TextView
+            android:id="@+id/tv_dialog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff00"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ki_m_tra"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:textSize="25sp"
+            android:textColor="#10ECD7"
+            android:id="@+id/btn_check1"/>
+
+
+</LinearLayout>

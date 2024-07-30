@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Row 1: TextView "LOGIN" -->
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:text="@string/login"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </TableRow>
+
+    <!-- Row 2: Username and EditText -->
+    <TableRow>
+        <TextView
+            android:layout_span="1"
+            android:text="@string/username"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <EditText
+            android:layout_span="2"
+            android:hint="@string/enter_id" />
+    </TableRow>
+
+    <!-- Row 3: Password and EditText -->
+    <TableRow>
+        <TextView
+            android:layout_span="1"
+            android:text="@string/password"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_span="2"
+            android:hint="@string/enter_password" />
+    </TableRow>
+
+    <!-- Row 4: Buttons OK, CANCEL, Forgot Password -->
+    <TableRow>
+        <Button
+            android:layout_span="1"
+            android:text="@string/ok"
+            android:textStyle="bold"
+            android:background="#800080"
+            android:gravity="center" />
+
+        <Button
+            android:layout_span="1"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:background="#800080"
+            android:gravity="center" />
+
+        <Button
+            android:layout_span="1"
+            android:text="@string/forgot_password"
+            android:textStyle="bold"
+            android:background="#800080"
+            android:gravity="center" />
+    </TableRow>
+</TableLayout>
+

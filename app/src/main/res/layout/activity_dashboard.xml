@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#CFEFF3">
+
+    <!-- Dashboard Title -->
+    <TextView
+        android:id="@+id/tvDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_view"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- ID Label -->
+    <TextView
+        android:id="@+id/tvIDLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textSize="20sp"
+        android:layout_below="@id/tvDashboard"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- ID Value -->
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/tvIDLabel"
+        android:layout_toEndOf="@id/tvIDLabel"
+        android:layout_marginStart="40dp" />
+
+    <!-- Username Label -->
+    <TextView
+        android:id="@+id/tvUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="20sp"
+        android:layout_below="@id/tvIDLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Username Value -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/tvUsernameLabel"
+        android:layout_toEndOf="@id/tvUsernameLabel"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Email Label -->
+    <TextView
+        android:id="@+id/tvEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="20sp"
+        android:layout_below="@id/tvUsernameLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Email Value -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/tvEmailLabel"
+        android:layout_toEndOf="@id/tvEmailLabel"
+        android:layout_marginStart="40dp"/>
+
+    <!-- Phone Label -->
+    <TextView
+        android:id="@+id/tvPhoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        android:layout_below="@id/tvEmailLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Phone Value -->
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/tvPhoneLabel"
+        android:layout_toEndOf="@id/tvPhoneLabel"
+        android:layout_marginStart="40dp"/>
+
+    <!-- Job Label -->
+    <TextView
+        android:id="@+id/tvJobLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/job"
+        android:textSize="20sp"
+        android:layout_below="@id/tvPhoneLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Job Value -->
+    <TextView
+        android:id="@+id/tvJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/tvJobLabel"
+        android:layout_toEndOf="@id/tvJobLabel"
+        android:layout_marginStart="40dp"/>
+
+</RelativeLayout>

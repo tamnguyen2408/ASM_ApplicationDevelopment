@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#F44336"
+            android:text="Home"/>
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#AE7571"
+            android:text="Contact"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#A15AAE"
+            android:text="Home"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:text="Contact"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#A8A05B"
+            android:text="Home"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#B68843"
+            android:text="Contact"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
